@@ -1,21 +1,21 @@
 <template>
   <div>
     <div class="page-title">
-      <h3>Профиль</h3>
+      <h3>Планирование</h3>
+      <h4>12 212</h4>
     </div>
 
-    <form class="form">
-      <div class="input-field">
-        <input id="description" type="text" />
-        <label for="description">Имя</label>
-        <span class="helper-text invalid">name</span>
+    <section>
+      <div>
+        <p>
+          <strong>Девушка:</strong>
+          12 122 из 14 0000
+        </p>
+        <div class="progress">
+          <div class="determinate green" style="width: 40%"></div>
+        </div>
       </div>
-
-      <button class="btn waves-effect waves-light" type="submit">
-        Обновить
-        <i class="material-icons right">send</i>
-      </button>
-    </form>
+    </section>
   </div>
 </template>
 

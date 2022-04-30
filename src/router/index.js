@@ -1,15 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: "/",
-    name: "home",
-    component: HomeView,
-  },
   {
     path: "/login",
     name: "login",
@@ -51,7 +45,7 @@ const routes = [
     },
   },
   {
-    path: "/home",
+    path: "/",
     name: "home",
     component: () => import("../views/HomeMain.vue"),
     meta: {
